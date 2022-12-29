@@ -1,0 +1,19 @@
+#btn{
+  margin-left: calc(50vw - 100px);
+  width:200px;
+  height: fit-content;
+  padding: 20px;
+  border: 1px solid black;
+  background-image: radial-gradient(white,red);
+  margin-top: 25vh;
+}
+#btn:hover{
+  background-image: radial-gradient(white,rgb(29, 255, 29));
+  content: "Heck yeah";
+  cursor: pointer;
+}
+header{
+  margin-left: auto;
+  font-family: courier;
+  font-weight:500;
+}
