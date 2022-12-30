@@ -7,10 +7,22 @@
   background-image: radial-gradient(white,red);
   margin-top: 25vh;
 }
+.btn2{
+  margin-left: calc(50vw - 100px);
+  width:200px;
+  height: fit-content;
+  padding: 20px;
+  border: 1px solid black;
+  background-image: radial-gradient(white,red);
+}
+.btn2:hover{
+  background-image: radial-gradient(white,rgb(29, 255, 29));
+  cursor: pointer;
+}
 #btn:hover{
   background-image: radial-gradient(white,rgb(29, 255, 29));
   content: "Heck yeah";
-  cursor: pointer;
+  cursor: crosshair;
 }
 header{
   margin-left: auto;
